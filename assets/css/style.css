@@ -998,6 +998,15 @@ section {
   border-radius: 4px;
 }
 
+.error-message-small{
+  background-color: #ff00001c;
+  color: darkred;
+  padding-left: 15px;
+  display: none;
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+}
+
 .contact .php-email-form button[type=submit]:hover {
   background: #37b3ed;
 }
