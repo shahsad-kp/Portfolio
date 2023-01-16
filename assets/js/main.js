@@ -4,6 +4,12 @@
 * Author: BootstrapMade.com
 * License: https://bootstrapmade.com/license/
 */
+
+elements = document.getElementsByClassName("website")
+for (let i = 0; i < elements.length; i++) {
+  elements[i].innerHTML = window.location.href;
+}
+
 (function() {
   "use strict";
 
